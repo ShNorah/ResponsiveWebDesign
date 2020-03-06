@@ -1,28 +1,41 @@
 
-  .red-text {
-    color: red;
-  }
+.d1{
+  flex-grow: 1;
+  
+  background: #FFFFFF;
+  
+}
+.d2{
+  flex-grow:3;
+  background: #F1EBAE;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+}
+.d3{
+  background: dodgerblue;
+}
+.container {
+  font-size: 40px;
+  display: flex;
+  flex-direction:row; 
+  justify-content: space-between;
+  
+}
+.title{
+  background:#f37f2d;
+  
+  font-Weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
 
-  h2 {
-    font-family: Lobster, monospace;
-  }
 
-  p {
-    font-size: 16px;
-    font-family: monospace;
-  }
-.smaller-image{
-    width: 100px;
 }
-.thick-green-border{
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-}
-.silver-background{
-    background-color: silver;
-}
-#cat-photo-form {
-    background-color: green;
+footer{
+  background: lightgray;
+  padding: 20px;
+  font-size: 20pt;
+  text-align: center;
+
+
 }
