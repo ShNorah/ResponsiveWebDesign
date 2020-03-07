@@ -1,0 +1,53 @@
+header{
+     background-color: lavender;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+  
+}
+ 
+.container1, .container2{
+    display: flex;
+    flex-basis: 150px; 
+}
+.box1{
+    background-color: lightseagreen;
+    flex-basis: 150px;  
+}
+#box2{
+    background-color: burlywood;
+    flex-grow:1;
+    
+}
+#box3{
+    background-color: rosybrown;
+    flex-grow:1;
+    align-self: center;
+}
+#box4{
+    background-color:green;
+    flex-direction: row; 
+    flex-grow:1;
+}
+#box5{
+    background-color: darkturquoise;
+    flex-grow:1;
+    order: 2;
+}
+#box6{
+    background-color: lightcoral;
+    flex-grow: 3;
+    order: 1;
+}
+footer{
+    background-color: darkcyan;
+    display: flex;
+}
+header, footer{
+    justify-content: center; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
