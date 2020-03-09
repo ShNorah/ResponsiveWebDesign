@@ -1,0 +1,36 @@
+header{
+    
+    background-color: skyblue;
+}
+footer{
+    background-color: silver;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 150px 200px 200px;
+    grid-column-gap: 20px;
+}
+.box1{
+    background-color: seagreen;
+}
+.box2{
+    
+    background-color: slateblue;
+}
+.box3{
+    background-color: sandybrown;
+}
+.box4{
+    background-color: steelblue;
+}
+.box5{
+    
+    background-color: sienna;
+}
+.box6{
+    background-color: springgreen; 
+}
+.box7{
+    background-color: salmon; 
+}

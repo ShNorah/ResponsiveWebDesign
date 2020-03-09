@@ -1,0 +1,72 @@
+
+.main-container{
+    display:flex;
+    color: black;
+    flex-flow:column;
+}
+.container1{
+    display: flex;
+   flex-direction: row;
+   align-self: flex-end;
+   font-weight: bold;
+   flex-basis: 30px;
+
+}
+.container2{
+    display: flex;
+ flex-direction: column;
+ text-align: center;
+ 
+ 
+}
+.box5{
+    text-align: center;
+    flex-basis: 100px;
+    padding: 20px;   
+}
+.search{
+    flex-basis: 100px;
+    padding: 20px;   
+}
+.container3{
+    display: flex;
+flex-direction: row;
+align-self: center;
+flex-basis: 150px;
+
+}
+.box6{
+    padding-top: 20px;    
+    flex-basis: 100px;
+
+}
+.button2{
+    align-items: center;
+    
+}
+.box7{
+    padding-top: 20px;
+    flex-basis: 100px;
+}
+.container4{
+    display: flex;
+color: black;
+flex-direction: column;
+
+}
+.box8{
+    text-align: center;
+    flex-basis: 100px;
+    padding-top: 50px;
+    align-self: center;    
+}
+.box9{
+    flex-basis: 100px;
+}
+.box10{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box11{
+   flex-basis: 100px;
+}

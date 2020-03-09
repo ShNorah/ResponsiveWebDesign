@@ -13,7 +13,8 @@ header{
 }
 .box1{
     background-color: lightseagreen;
-    flex-basis: 150px;  
+    flex-basis: 150px;
+    flex-grow: 1;  
 }
 #box2{
     background-color: burlywood;
