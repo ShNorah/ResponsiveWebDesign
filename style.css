@@ -1,17 +1,18 @@
 
+img{
+ 
+}
 .d1{
-  flex-grow: 1;
-  
   background: #FFFFFF;
   
 }
-.d2{
+.container2{
   flex-grow:3;
   background: #F1EBAE;
   font-family: 'Times New Roman', Times, serif;
   font-size: 12pt;
 }
-.d3{
+.container3{
   background: dodgerblue;
 }
 .container {
